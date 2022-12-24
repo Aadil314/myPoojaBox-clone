@@ -1,0 +1,385 @@
+#sec0 {
+  font-family: 'CityBoys';
+  color: white;
+  font-size: 13px;
+  height: 25px;
+  width: 100%;
+  background-color: #e85992;
+}
+
+.logo {
+  margin-left: 50px;
+  height: 55px;
+}
+
+.navbar-nav {
+  margin-left: 20px;
+}
+
+.menuitems {
+  text-decoration: none;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.menucol {
+  width: 190px;
+}
+
+.dropdownflex {
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .menucol {
+    width: 250px;
+  }
+}
+
+@media (min-width: 576px) {
+  .dropdownflex {
+    flex-wrap: nowrap;
+  }
+}
+
+#icons {
+  width: 80px;
+}
+
+@media (min-width: 768px) {
+  #icons {
+    width: 120px;
+  }
+}
+
+@media (min-width: 992px) {
+  #icons {
+    width: 160px;
+  }
+}
+
+.icon {
+  margin: 10px;
+  margin-top: 27px;
+}
+
+input {
+  margin-left: 10px;
+}
+
+#roseicon {
+  height: 20px;
+}
+
+.para {
+  margin-bottom: 10px;
+}
+
+.promo {
+  width: 100%;
+}
+
+.imglink {
+  background-image: url("../../assets/img/rakhi.webp");
+  background-size: 100%;
+  background-position: center;
+  height: 150PX;
+  width: 150PX;
+  border-radius: 50%;
+  transition: .6s;
+}
+
+.imglink:hover {
+  background-size: 107%;
+}
+
+.linktxt {
+  margin-top: 5px;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+#sec3 {
+  width: 90%;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.linkcircle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#linkimg2 {
+  background-image: url("../../assets/img/ganesha.jpg");
+}
+
+#linkimg3 {
+  background-image: url("../../assets/img/incense.jpg");
+}
+
+.linktxttest {
+  margin-top: -15px;
+  font-size: 12px;
+}
+
+#linkimg4 {
+  background-image: url("../../assets/img/homedecor.webp");
+}
+
+#linkimg5 {
+  background-image: url("../../assets/img/healingcrystals.webp");
+}
+
+#linkimg6 {
+  background-image: url("../../assets/img/auracleansing.webp");
+}
+
+#linkimg7 {
+  background-image: url("../../assets/img/urlis.jpg");
+}
+
+#linkimg8 {
+  background-image: url("../../assets/img/godidols.webp");
+}
+
+#linkimg9 {
+  background-image: url("../../assets/img/lampsandlaterns.webp");
+}
+
+#linkimg10 {
+  background-image: url("../../assets/img/poojadecors.webp");
+}
+
+#sec2 {
+  width: 100%;
+}
+
+#sec1 {
+  width: 100%;
+}
+
+#sec4 {
+  width: 90%;
+  margin-top: 30px;
+}
+
+.contentimg {
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/img/rakhi1.webp");
+  background-size: 100%;
+  transition: .7s;
+  background-position: center;
+  margin-top: 10px;
+}
+
+.contentimg:hover {
+  background-image: url("../../assets/img/rakhi1hover.webp");
+  background-size: 105%;
+}
+
+.contentbtn {
+  margin-top: -15px;
+}
+
+.contenttxt {
+  white-space: nowrap;
+  overflow-x: hidden;
+  margin-top: 5px;
+}
+
+@media (min-width: 1200px) {
+  .contenttxt {
+    margin-top: -10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contenttxt {
+    margin-top: 3px;
+  }
+}
+
+#content2img {
+  background-image: url("../../assets/img/Silver%20Bhabhi%20Rakhi.jpg");
+}
+
+.contentouter {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media (min-width: 1200px) {
+  .contentouter {
+    flex-wrap: nowrap;
+  }
+}
+
+.content {
+  width: 15%;
+  min-width: 250px;
+}
+
+@media (min-width: 1200px) {
+  .content {
+    min-width: 0px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contentlast {
+    margin-right: 10px;
+  }
+}
+
+.sec {
+  margin-top: 50px;
+  width: 90%;
+}
+
+.healcont {
+  background-image: url("../../assets/img/healing1.webp");
+}
+
+.healcont:hover {
+  background-image: url("../../assets/img/healing1hover.webp");
+}
+
+.ganeshcont {
+  background-image: url("../../assets/img/ganesh1.jpg");
+}
+
+.limitedcont {
+  background-image: url("../../assets/img/limitededition.jpg");
+}
+
+.saltcont {
+  background-image: url("../../assets/img/saltlamps.webp");
+}
+
+.incensecont {
+  background-image: url("../../assets/img/incense1.webp");
+}
+
+.evilcont {
+  background-image: url("../../assets/img/evileye1.jpg");
+}
+
+.ganeshcont:hover {
+  background-image: url("../../assets/img/ganesh1hover.jpg");
+}
+
+.limitedcont:hover {
+  background-image: url("../../assets/img/limitededitionhover.jpg");
+}
+
+.saltcont:hover {
+  background-image: url("../../assets/img/saltlampshover.webp");
+}
+
+.incensecont:hover {
+  background-image: url("../../assets/img/incense1hover.webp");
+}
+
+.evilcont:hover {
+  background-image: url("../../assets/img/evileye1hover.webp");
+}
+
+#sec8 {
+  width: 100%;
+}
+
+#sec10 {
+  width: 100%;
+  background-image: url("../../assets/img/lampposteroff.jpg");
+  animation: bgchange 2s infinite alternate;
+}
+
+@keyframes bgchange {
+  100% {
+    /*opacity: 0%;*/
+    background-image: url("../../assets/img/lampposteron.jpg");
+  }
+}
+
+.hiddenimg {
+  visibility: hidden;
+}
+
+#sec13 {
+  width: 90%;
+}
+
+.content13 {
+}
+
+.contentouter13 {
+  width: 100%;
+}
+
+.contentimg.instapromo {
+  background-image: url("../../assets/img/instapromo.webp");
+}
+
+.instaicon {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.instaicon:hover {
+  opacity: 0.4;
+}
+
+.readmoretext {
+  display: none;
+}
+
+.features {
+  width: 100%;
+}
+
+#footerlogo {
+  width: 20%;
+  min-width: 200px;
+  object-fit: contain;
+}
+
+@media (min-width: 768px) {
+  #footerlogo {
+    margin-top: -200px;
+  }
+}
+
+.footerlinks {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.footercol {
+  gap: 15px;
+}
+
+.footercol {
+  gap: 15px;
+}
+
+.footerlinks:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  gap: 30px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+  }
+}
+

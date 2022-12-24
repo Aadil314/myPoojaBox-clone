@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'Garamond Premiere Pro';
+	src: url(../../assets/fonts/GaramondPremrPro.woff2) format('woff2'),
+	url(../../assets/fonts/GaramondPremrPro.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Garamond Premiere Pro';
+	src: url(../../assets/fonts/GaramondPremrPro-Smbd.woff2) format('woff2'),
+	url(../../assets/fonts/GaramondPremrPro-Smbd.woff) format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
